@@ -75,7 +75,7 @@ h1 {
 }
 
 section {
-  border: 1px solid #000000;
+  border: none;
   background-color: #999999;
   margin-top: 10px;
   margin-bottom: 10px;
