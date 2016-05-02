@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial;
+}
+
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  font-family: Helvetica, Arial;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #999999;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.navbar-brand h1 { /* Brand */
+  font-family: Helvetica, Arial;
+  color: #000;
+  font-size: 1.50em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #fff;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  background-color: #999999;
+  border: 1px solid #000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+
+.navbar-header button.navbar-toggle:hover, .navbar-header:hover .icon-bar{
+  background-color: #999999;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+/* END HEADER */
+
+/* HOME PAGE */
+
+h1 {
+  font-size: 1.75em;
+}
+
+section {
+  border: 1px solid #000000;
+  background-color: #999999;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 10px;
+}
+
+section a{
+  color: #fff;
+}
+
+section a:hover {
+  color: #000;
+}
+
+/* END HOME PAGE */
